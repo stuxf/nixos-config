@@ -1,31 +1,19 @@
-{ config, pkgs, ... }:
-
 {
+  config,
+  pkgs,
+  ...
+}: {
   home.username = "user";
   home.homeDirectory = "/home/user";
 
-  # link the configuration file in current directory to the specified location in home directory
-  # home.file.".config/i3/wallpaper.jpg".source = ./wallpaper.jpg;
-
-  # link all files in `./scripts` to `~/.config/i3/scripts`
-  # home.file.".config/i3/scripts" = {
-  #   source = ./scripts;
-  #   recursive = true;   # link recursively
-  #   executable = true;  # make all files executable
-  # };
-
-  # encode the file content in nix configuration file directly
-  # home.file.".xxx".text = ''
-  #     xxx
-  # '';
-
-  # Packages that should be installed to the user profile.
   home.packages = with pkgs; [
     # here is some command line tools I use frequently
     # feel free to add your own or remove some of them
 
     neofetch
     nnn # terminal file manager
+
+    alejandra
 
     # archives
     zip
@@ -71,7 +59,7 @@
     # hugo # static site generator
     # glow # markdown previewer in terminal
 
-    btop  # replacement of htop/nmon
+    btop # replacement of htop/nmon
     iotop # io monitoring
     iftop # network monitoring
 
@@ -86,6 +74,10 @@
     ethtool
     pciutils # lspci
     usbutils # lsusb
+
+    vesktop
+    spotify
+    wl-clipboard
   ];
 
   # basic configuration of git, please change to your own

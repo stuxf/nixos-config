@@ -15,7 +15,12 @@
     };
   };
 
-  outputs = inputs@{ nixpkgs, home-manager, nixos-hardware, ... }: {
+  outputs = inputs @ {
+    nixpkgs,
+    home-manager,
+    nixos-hardware,
+    ...
+  }: {
     nixosConfigurations = {
       donk = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -29,7 +34,7 @@
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
 
-            home-manager.users.user = import ./home/home.nix;
+            home-manager.users.user = import ./home;
 
             # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
           }

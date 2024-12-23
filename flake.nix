@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    nixos-hardware.url = "github:NixOS/nixos-hardware/46d00f2";
     # home-manager, used for managing user configuration
     home-manager = {
       url = "github:nix-community/home-manager/release-24.11";
@@ -14,7 +15,7 @@
     };
   };
 
-  outputs = inputs@{ nixpkgs, home-manager, ... }: {
+  outputs = inputs@{ nixpkgs, home-manager, nixos-hardware, ... }: {
     nixosConfigurations = {
       donk = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
@@ -32,6 +33,7 @@
 
             # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
           }
+          nixos-hardware.nixosModules.asus-zephyrus-ga401
         ];
       };
     };

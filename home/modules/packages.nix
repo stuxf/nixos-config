@@ -22,6 +22,10 @@
     ethtool
     pciutils
     usbutils
+    # (discord.override {
+    # withOpenASAR = true;
+    # withVencord = true;
+    # })
     vesktop
     spotify
     wl-clipboard

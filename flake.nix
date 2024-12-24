@@ -13,11 +13,15 @@
       # to avoid problems caused by different versions of nixpkgs.
       inputs.nixpkgs.follows = "nixpkgs";
     };
+    catppuccin.url = "github:catppuccin/nix";
+    # stylix.url = "github:danth/stylix";
   };
 
   outputs = inputs @ {
     nixpkgs,
     home-manager,
+    catppuccin,
+    # stylix,
     nixos-hardware,
     ...
   }: {
@@ -26,6 +30,8 @@
         system = "x86_64-linux";
         modules = [
           ./nixos/configuration.nix
+          catppuccin.nixosModules.catppuccin
+          # stylix.nixosModules.stylix
 
           # make home-manager as a module of nixos
           # so that home-manager configuration will be deployed automatically when executing `nixos-rebuild switch`
@@ -33,8 +39,22 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
+            home-manager.backupFileExtension = ".backup";
 
-            home-manager.users.user = import ./home;
+            home-manager.users.user = {
+              # stylix.enable = true;
+              # stylix.autoEnable = false;
+              # stylix.targets.vesktop.enable = true;
+              # stylix.image = ./wallpaper.png;
+              # stylix.targets.gnome.enable = true;
+              # stylix.targets.gtk.enable = true;
+              # stylix.targets.firefox.enable = true;
+
+              imports = [
+                ./home
+                catppuccin.homeManagerModules.catppuccin
+              ];
+            };
 
             # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
           }

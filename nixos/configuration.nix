@@ -13,8 +13,8 @@
   ];
 
   # Bootloader.
-  boot.loader.systemd-boot.enable = true;
-  boot.loader.efi.canTouchEfiVariables = true;
+  # boot.loader.systemd-boot.enable = true;
+  # boot.loader.efi.canTouchEfiVariables = true;
   boot.blacklistedKernelModules = ["nouveau"];
 
   networking.hostName = "donk"; # Define your hostname.
@@ -51,6 +51,33 @@
   # Enable the GNOME Desktop Environment.
   services.xserver.displayManager.gdm.enable = true;
   services.xserver.desktopManager.gnome.enable = true;
+
+  # Enable the KDE Desktop Environment.
+  # services.displayManager.sddm.enable = true;
+  # services.desktopManager.plasma6.enable = true;
+
+  # Enable Grub Config
+  boot.loader = {
+    efi = {
+      canTouchEfiVariables = true;
+    };
+    grub = {
+      enable = true;
+      efiSupport = true;
+      device = "nodev";
+    };
+  };
+  # Theming
+  catppuccin.enable = true;
+  catppuccin.flavor = "mocha";
+  catppuccin.accent = "pink";
+  # stylix.enable = true;
+  # stylix.image = ../wallpaper.png;
+  # stylix.autoEnable = false;
+  # stylix.targets.gnome.enable = true;
+  # stylix.targets.gtk.enable = true;
+  # stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/catppuccin-mocha.yaml";
+
   # Enable Supergfxctld
   services.supergfxd.enable = true;
   services = {
@@ -62,6 +89,7 @@
 
   # Configure nvidia hardware opts
   hardware.nvidia.open = false;
+  hardware.bluetooth.enable = true;
 
   # Configure keymap in X11
   services.xserver.xkb = {

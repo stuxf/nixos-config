@@ -7,6 +7,7 @@
     ./modules/packages.nix
     ./modules/programs/bash.nix
     ./modules/programs/git.nix
+    ./modules/programs/firefox.nix
   ];
 
   home.username = "user";

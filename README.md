@@ -9,3 +9,12 @@ My config. It is what it is. Work in progress!
 Decided to try Nix after my friend @airwuu hopped on it a couple months ago.
 
 Most of the config so far is from https://nixos-and-flakes.thiscute.world/.
+
+## Non-declaratively set things
+
+Not everything is declaratively set via my config. Here is a small (likely non-inclusive list). Some of these are intentional, others are not, and some I intend to get to when I have more time.
+
+- Discord settings
+- Web browser login details
+- Bitwarden being pinned in firefox
+- Extensions enabled in private windows firefox

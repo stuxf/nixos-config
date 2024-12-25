@@ -70,7 +70,7 @@
         name = "Discord";
       };
       "org/gnome/mutter/wayland/keybindings" = {
-        restore-shortcuts = [ ];
+        restore-shortcuts = [];
       };
     };
   };

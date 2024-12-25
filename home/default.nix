@@ -10,6 +10,7 @@
     ./modules/programs/firefox.nix
     ./modules/programs/foot.nix
     ./modules/editors/helix.nix
+    ./modules/gnome/dconf.nix
   ];
 
   gtk.enable = true;

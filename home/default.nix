@@ -11,6 +11,8 @@
     ./modules/programs/foot.nix
     ./modules/editors/helix.nix
     ./modules/gnome/dconf.nix
+    ./modules/dev/python.nix
+    ./modules/programs/zathura.nix
   ];
 
   gtk.enable = true;

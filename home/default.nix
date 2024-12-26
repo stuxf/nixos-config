@@ -13,6 +13,7 @@
     ./modules/gnome/dconf.nix
     ./modules/dev/python.nix
     ./modules/programs/zathura.nix
+    ./modules/dev/typst.nix
   ];
 
   gtk.enable = true;

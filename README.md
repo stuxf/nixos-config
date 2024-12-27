@@ -18,3 +18,4 @@ Not everything is declaratively set via my config. Here is a small (likely non-i
 - Web browser login details
 - Bitwarden being pinned in firefox
 - Extensions enabled in private windows firefox
+- GPU enabled or not (use `asusctl`)

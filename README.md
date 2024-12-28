@@ -8,7 +8,7 @@ My config. It is what it is. Work in progress!
 
 Decided to try Nix after my friend @airwuu hopped on it a couple months ago.
 
-Most of the config so far is from https://nixos-and-flakes.thiscute.world/.
+I used https://nixos-and-flakes.thiscute.world/ to get started, which I found to be a really great resource.
 
 ## Non-declaratively set things
 

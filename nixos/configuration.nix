@@ -157,6 +157,11 @@
     gnomeExtensions.blur-my-shell
   ];
 
+  # Shell
+  programs.fish.enable = true;
+  users.users.user.shell = pkgs.fish;
+
+
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;

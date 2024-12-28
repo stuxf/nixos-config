@@ -15,6 +15,7 @@
     ./modules/programs/zathura.nix
     ./modules/dev/typst.nix
     ./modules/theming/catppuccin.nix
+    ./modules/shell/fish.nix
   ];
 
   home.username = "user";

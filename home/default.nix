@@ -14,15 +14,8 @@
     ./modules/dev/python.nix
     ./modules/programs/zathura.nix
     ./modules/dev/typst.nix
+    ./modules/theming/catppuccin.nix
   ];
-
-  gtk.enable = true;
-  catppuccin.enable = true;
-  catppuccin.flavor = "mocha";
-  catppuccin.accent = "pink";
-  catppuccin.gtk.enable = true;
-  catppuccin.gtk.gnomeShellTheme = true;
-  catppuccin.gtk.size = "standard";
 
   home.username = "user";
   home.homeDirectory = "/home/user";

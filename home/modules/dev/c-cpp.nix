@@ -4,10 +4,12 @@
   ...
 }: {
   home.packages = with pkgs; [
-    clang-tools
+    llvmPackages.clang-unwrapped
+    # clang-tools
     lldb
     gcc
     gdb
+    valgrind
     cmake
     cmake-language-server
     gnumake

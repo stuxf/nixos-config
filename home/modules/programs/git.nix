@@ -9,4 +9,5 @@
     delta.enable = true;
   };
   programs.lazygit.enable = true;
+  programs.gitui.enable = true;
 }

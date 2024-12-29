@@ -26,6 +26,7 @@
     ./modules/shell/yazi.nix
     ./modules/shell/fd.nix
     ./modules/shell/starship.nix
+    ./modules/shell/zellij.nix
     ./modules/theming/font.nix
   ];
 

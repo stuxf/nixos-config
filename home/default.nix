@@ -27,6 +27,8 @@
     ./modules/shell/fd.nix
     ./modules/shell/starship.nix
     ./modules/shell/zellij.nix
+    ./modules/shell/ripgrep.nix
+    ./modules/shell/fzf.nix
     ./modules/theming/font.nix
   ];
 

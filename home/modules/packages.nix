@@ -7,6 +7,7 @@
     neofetch
     nerdfetch
     dust
+    hyperfine
     alejandra
     zip
     xz

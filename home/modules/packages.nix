@@ -9,6 +9,9 @@
     dust
     hyperfine
     alejandra
+    heroic
+    bottles
+    prismlauncher
     zip
     xz
     unzip
@@ -17,7 +20,6 @@
     which
     tree
     nix-output-monitor
-    btop
     iotop
     iftop
     strace

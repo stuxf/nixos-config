@@ -6,5 +6,7 @@
     extraConfig.init.defaultBranch = "main";
     extraConfig.init.color.ui = "auto";
     extraConfig.init.pull.rebase = "false";
+    delta.enable = true;
   };
+  programs.lazygit.enable = true;
 }

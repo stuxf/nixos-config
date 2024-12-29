@@ -29,6 +29,9 @@
       "org/gnome/desktop/interface" = {
         "clock-show-seconds" = true;
         "clock-show-weekday" = true;
+        "font-name" = "JetBrainsMonoNL Nerd Font Propo 11";
+        "document-font-name" = "JetBrainsMonoNL Nerd Font Propo 11";
+        "monospace-font-name" = "JetBrainsMonoNL Nerd Font Mono 10";
       };
       "org/gnome/desktop/calendar" = {
         "show-weekdate" = true;

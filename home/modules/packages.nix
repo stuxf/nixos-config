@@ -1,7 +1,12 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
+    cowsay
+    pokemonsay
+    krabby
+    fastfetch
     neofetch
-    nnn
+    nerdfetch
+    dust
     alejandra
     zip
     xz

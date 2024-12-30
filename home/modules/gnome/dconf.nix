@@ -3,6 +3,7 @@
   pkgs,
   ...
 }: {
+  services.gnome-keyring.enable = true;
   dconf = {
     enable = true;
     settings = {

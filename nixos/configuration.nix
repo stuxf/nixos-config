@@ -91,6 +91,9 @@
   hardware.nvidia.open = false;
   hardware.bluetooth.enable = true;
 
+  # Cloudflare Warp VPN
+  services.cloudflare-warp.enable = true;
+
   # Configure keymap in X11
   services.xserver.xkb = {
     layout = "us";

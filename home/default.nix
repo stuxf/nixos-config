@@ -7,7 +7,6 @@
     ./modules/packages.nix
     ./modules/programs/bash.nix
     ./modules/programs/git.nix
-    ./modules/programs/firefox.nix
     ./modules/programs/foot.nix
     ./modules/editors/helix.nix
     ./modules/editors/micro.nix
@@ -31,6 +30,8 @@
     ./modules/shell/ripgrep.nix
     ./modules/shell/fzf.nix
     ./modules/theming/font.nix
+    ./modules/browsers/firefox.nix
+    ./modules/browsers/chromium.nix
   ];
 
   home.username = "user";

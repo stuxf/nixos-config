@@ -16,8 +16,8 @@ Not everything is declaratively set via my config. Here is a small (likely non-i
 
 - Discord settings
 - Web browser login details
-- Bitwarden being pinned in firefox
-- Extensions enabled in private windows firefox
+- Browser extensions being pinned
+- Extensions enabled in private/incognito windows
 - GPU enabled or not (use `asusctl`)
 - Have to run `fc-cache -fr` to clear font cache
 - Games (Steam, Heroic, Minecraft) are installed inside the launchers

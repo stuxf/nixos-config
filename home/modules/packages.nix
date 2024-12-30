@@ -37,5 +37,6 @@
     vesktop
     spotify
     wl-clipboard
+    cloudflare-warp
   ];
 }

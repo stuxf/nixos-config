@@ -10,4 +10,6 @@
   };
   programs.lazygit.enable = true;
   programs.gitui.enable = true;
+  programs.gh.enable = true;
+  programs.gh-dash.enable = true;
 }

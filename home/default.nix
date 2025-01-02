@@ -10,6 +10,8 @@
     ./modules/programs/foot.nix
     ./modules/editors/helix.nix
     ./modules/editors/micro.nix
+    ./modules/editors/zed.nix
+    ./modules/editors/vscode.nix
     ./modules/gnome/dconf.nix
     ./modules/dev/python.nix
     ./modules/programs/zathura.nix

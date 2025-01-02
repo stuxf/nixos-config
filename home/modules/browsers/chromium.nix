@@ -7,9 +7,9 @@
     enable = true;
     extensions = [
       # uBlock Origin Lite
-      { id = "ddkjiahejlhfcafbddmgiahcphecmpfh"; }
+      {id = "ddkjiahejlhfcafbddmgiahcphecmpfh";}
       # BitWarden
-      { id = "nngceckbapebfimnlniiiahkandclblb"; }
+      {id = "nngceckbapebfimnlniiiahkandclblb";}
     ];
   };
 }

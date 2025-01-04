@@ -38,5 +38,6 @@
     spotify
     wl-clipboard
     cloudflare-warp
+    telegram-desktop
   ];
 }

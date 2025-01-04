@@ -20,6 +20,12 @@
       ms-vscode.cmake-tools
       ms-vsliveshare.vsliveshare
       tomoki1207.pdf
+
+      # Typst
+      myriad-dreamin.tinymist
     ];
+    # userSettings = {
+    #   "editor.fontfamily" = "'JetBrainsMonoNL Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace";
+    # };
   };
 }

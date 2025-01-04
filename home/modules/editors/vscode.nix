@@ -26,6 +26,12 @@
     ];
     # userSettings = {
     #   "editor.fontfamily" = "'JetBrainsMonoNL Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace";
+    #   "[typst]" = {
+    #     "editor.wordSeparators" = "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?";
+    #   };
+    #   "[typst-code]" = {
+    #     "editor.wordSeparators" = "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?";
+    #   };
     # };
   };
 }

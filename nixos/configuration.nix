@@ -146,6 +146,11 @@
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
 
+  # Add some fonts
+  fonts.packages = with pkgs; [
+    dm-sans
+  ];
+
   # Enable Flakes
   nix.settings.experimental-features = ["nix-command" "flakes"];
 

@@ -1,17 +1,28 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
+    # Fun
     cowsay
     pokemonsay
     krabby
+
+    # Info Fetch
     fastfetch
     neofetch
     nerdfetch
+
+    # New CLI
     dust
     hyperfine
+
+    # Nix Tools
     alejandra
+
+    # Games
     heroic
     bottles
     prismlauncher
+
+    # Utils
     zip
     xz
     unzip
@@ -19,7 +30,6 @@
     file
     which
     tree
-    nix-output-monitor
     iotop
     iftop
     strace
@@ -30,13 +40,12 @@
     ethtool
     pciutils
     usbutils
-    # (discord.override {
-    # withOpenASAR = true;
-    # withVencord = true;
-    # })
+    imagemagick
+    wl-clipboard
+
+    # Apps
     vesktop
     spotify
-    wl-clipboard
     cloudflare-warp
     telegram-desktop
   ];

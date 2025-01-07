@@ -17,6 +17,7 @@
     ./modules/programs/zathura.nix
     ./modules/dev/typst.nix
     ./modules/dev/c-cpp.nix
+    ./modules/dev/html.nix
     ./modules/theming/catppuccin.nix
     ./modules/shell/fish.nix
     ./modules/shell/bat.nix

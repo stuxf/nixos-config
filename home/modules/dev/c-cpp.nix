@@ -4,8 +4,8 @@
   ...
 }: {
   home.packages = with pkgs; [
-    llvmPackages.clang-unwrapped
-    # clang-tools
+    # llvmPackages.libcxxClang
+    clang-tools
     lldb
     gcc
     gdb

@@ -23,6 +23,9 @@
 
       # Typst
       myriad-dreamin.tinymist
+
+      # Dev Containers
+      ms-vscode-remote.remote-containers
     ];
     # userSettings = {
     #   "editor.fontfamily" = "'JetBrainsMonoNL Nerd Font Mono', 'Droid Sans Mono', 'monospace', monospace";

@@ -48,5 +48,6 @@
     spotify
     cloudflare-warp
     telegram-desktop
+    signal-desktop
   ];
 }

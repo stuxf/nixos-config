@@ -7,6 +7,7 @@
     ./modules/packages.nix
     ./modules/programs/bash.nix
     ./modules/programs/git.nix
+    ./modules/programs/gpg.nix
     ./modules/programs/foot.nix
     ./modules/editors/helix.nix
     ./modules/editors/micro.nix

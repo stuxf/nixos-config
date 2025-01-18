@@ -49,5 +49,6 @@
     cloudflare-warp
     telegram-desktop
     signal-desktop
+    arduino-ide
   ];
 }

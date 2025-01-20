@@ -23,3 +23,4 @@ Not everything is declaratively set via my config. Here is a small (likely non-i
 - Games (Steam, Heroic, Minecraft) are installed inside the launchers
 - GNOME Online Accounts need to be logged into manually
 - VSCode user settings (font has been changed to Jetbrains Mono)
+- SSH Config (don't want it public for obvious reasons), important to `SetEnv TERM=xterm-256color` however.

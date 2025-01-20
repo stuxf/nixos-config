@@ -13,6 +13,7 @@
     # New CLI
     dust
     hyperfine
+    tealdeer
 
     # Nix Tools
     alejandra

@@ -28,6 +28,7 @@
     xz
     unzip
     p7zip
+    fx
     file
     which
     tree

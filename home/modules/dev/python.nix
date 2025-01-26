@@ -11,8 +11,21 @@
   # Packages to be installed
   pythonPackages = ps:
     with ps; [
+      # LSP Stuff
       python-lsp-server
       python-lsp-ruff
+
+      # Scientific Computing Stuff
+      numpy
+      matplotlib
+      scipy
+
+      # Jupyter Notebook
+      jupyter
+      ipython
+      ipykernel
+      jupyterlab
+      pip
     ];
 in {
   programs.ruff.enable = true;

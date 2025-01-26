@@ -23,6 +23,12 @@
     bottles
     prismlauncher
 
+    # Languages
+    lean4
+
+    # Other Packages
+    devbox
+
     # Utils
     zip
     xz

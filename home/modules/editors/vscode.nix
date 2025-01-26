@@ -20,6 +20,7 @@
       ms-vscode.cmake-tools
       ms-vsliveshare.vsliveshare
       tomoki1207.pdf
+      ms-toolsai.jupyter
 
       # Typst
       myriad-dreamin.tinymist

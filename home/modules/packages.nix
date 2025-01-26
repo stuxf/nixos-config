@@ -28,6 +28,7 @@
 
     # Other Packages
     devbox
+    distrobox
 
     # Utils
     zip

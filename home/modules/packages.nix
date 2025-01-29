@@ -51,6 +51,7 @@
     usbutils
     imagemagick
     wl-clipboard
+    mprocs
 
     # Apps
     vesktop

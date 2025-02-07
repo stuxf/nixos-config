@@ -57,15 +57,15 @@
   # services.desktopManager.plasma6.enable = true;
 
   # Enable Docker
-  # virtualisation.docker.enable = true;
-  # virtualisation.docker.rootless = {
-  #   enable = true;
-  #   setSocketVariable = true;
-  # };
-  virtualisation.podman = {
+  virtualisation.docker.enable = true;
+  virtualisation.docker.rootless = {
     enable = true;
-    dockerCompat = true;
+    setSocketVariable = true;
   };
+  # virtualisation.podman = {
+  #   enable = true;
+  #   dockerCompat = true;
+  # };
 
   # Enable Grub Config
   boot.loader = {

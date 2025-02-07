@@ -19,6 +19,7 @@
     ./modules/dev/typst.nix
     ./modules/dev/c-cpp.nix
     ./modules/dev/html.nix
+    ./modules/dev/zig.nix
     ./modules/theming/catppuccin.nix
     ./modules/shell/fish.nix
     ./modules/shell/bat.nix

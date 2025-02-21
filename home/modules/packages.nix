@@ -26,6 +26,7 @@
 
     # Languages
     lean4
+    swi-prolog
 
     # Other Packages
     devbox
@@ -61,5 +62,8 @@
     telegram-desktop
     signal-desktop
     arduino-ide
+
+    # IDEs
+    jetbrains.clion
   ];
 }

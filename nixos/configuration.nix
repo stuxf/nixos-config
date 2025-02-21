@@ -62,10 +62,10 @@
     enable = true;
     setSocketVariable = true;
   };
-  # virtualisation.podman = {
-  #   enable = true;
-  #   dockerCompat = true;
-  # };
+  virtualisation.podman = {
+    enable = true;
+    # dockerCompat = true;
+  };
 
   # Enable Grub Config
   boot.loader = {

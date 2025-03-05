@@ -62,6 +62,7 @@
     telegram-desktop
     signal-desktop
     arduino-ide
+    notion-app-enhanced
 
     # IDEs
     jetbrains.clion

@@ -20,6 +20,9 @@
       matplotlib
       scipy
 
+      # QOL
+      tqdm
+
       # Jupyter Notebook
       jupyter
       ipython

@@ -54,6 +54,9 @@
     imagemagick
     wl-clipboard
     mprocs
+    SDL2
+    SDL2.dev
+    sdl3
 
     # Apps
     vesktop

@@ -3,6 +3,7 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-24.11";
+    nixpkgs-unstable.url = "github:nixos/nixpkgs/nixos-unstable";
     nixos-hardware.url = "github:NixOS/nixos-hardware/46d00f2";
     # home-manager, used for managing user configuration
     home-manager = {
@@ -19,6 +20,7 @@
 
   outputs = inputs @ {
     nixpkgs,
+    nixpkgs-unstable,
     home-manager,
     catppuccin,
     # stylix,
@@ -57,6 +59,7 @@
             };
 
             # Optionally, use home-manager.extraSpecialArgs to pass arguments to home.nix
+            home-manager.extraSpecialArgs = {inherit inputs;};
           }
           nixos-hardware.nixosModules.asus-zephyrus-ga401
         ];

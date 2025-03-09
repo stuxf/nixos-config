@@ -3,7 +3,9 @@
   pkgs,
   ...
 }: {
-  home.packages = [pkgs.nerdfonts];
+  home.packages = [
+    pkgs.nerdfonts
+  ];
   fonts.fontconfig = {
     enable = true;
     defaultFonts = {

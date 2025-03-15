@@ -15,6 +15,7 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     catppuccin.url = "github:catppuccin/nix";
+    nix-alien.url = "github:thiagokokada/nix-alien";
     # stylix.url = "github:danth/stylix";
   };
 
@@ -24,6 +25,7 @@
     home-manager,
     catppuccin,
     # stylix,
+    nix-alien,
     nixos-hardware,
     ...
   }: {

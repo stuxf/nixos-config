@@ -27,6 +27,10 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+  users.groups.libvirtd.members = ["user"];
+
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";
 

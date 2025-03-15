@@ -1,4 +1,8 @@
-{pkgs, ...}: {
+{
+  pkgs,
+  inputs,
+  ...
+}: {
   home.packages = with pkgs; [
     # Fun
     cowsay
@@ -17,6 +21,8 @@
 
     # Nix Tools
     alejandra
+    inputs.nix-alien.packages.${pkgs.system}.nix-alien
+    cloc
 
     # Games
     heroic
@@ -27,6 +33,10 @@
     # Languages
     lean4
     swi-prolog
+
+    # VPN
+    openconnect_openssl
+    networkmanager-openconnect
 
     # Other Packages
     devbox

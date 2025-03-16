@@ -30,6 +30,7 @@
   virtualisation.libvirtd.enable = true;
   programs.virt-manager.enable = true;
   users.groups.libvirtd.members = ["user"];
+  virtualisation.spiceUSBRedirection.enable = true;
 
   # Set your time zone.
   time.timeZone = "America/Los_Angeles";

@@ -28,7 +28,7 @@
     heroic
     bottles
     prismlauncher
-    tetrio-desktop
+    # tetrio-desktop
 
     # Languages
     lean4

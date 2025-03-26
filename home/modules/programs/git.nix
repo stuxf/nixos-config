@@ -7,6 +7,7 @@
     extraConfig.init.color.ui = "auto";
     extraConfig.init.pull.rebase = "false";
     delta.enable = true;
+    lfs.enable = true;
   };
   programs.lazygit.enable = true;
   programs.gitui.enable = true;

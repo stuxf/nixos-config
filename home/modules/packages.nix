@@ -78,6 +78,8 @@
     signal-desktop
     arduino-ide
     notion-app-enhanced
+    libreoffice
+    hunspell
 
     # IDEs
     jetbrains.clion

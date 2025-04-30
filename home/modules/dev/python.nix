@@ -19,6 +19,9 @@
       numpy
       matplotlib
       scipy
+      pydot
+      pandas
+      scikit-learn
 
       # QOL
       tqdm
@@ -29,6 +32,13 @@
       ipykernel
       jupyterlab
       pip
+
+      # CTF
+      pwntools
+      pycryptodome
+      gmpy2
+      pillow
+      sympy
     ];
 in {
   programs.ruff.enable = true;

@@ -21,6 +21,8 @@
     ./modules/dev/c-cpp.nix
     ./modules/dev/html.nix
     ./modules/dev/zig.nix
+    ./modules/dev/fpga.nix
+    ./modules/dev/js.nix
     ./modules/theming/catppuccin.nix
     ./modules/shell/fish.nix
     ./modules/shell/bat.nix

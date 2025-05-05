@@ -24,6 +24,9 @@
     inputs.nix-alien.packages.${pkgs.system}.nix-alien
     cloc
 
+    # Other tools
+    act
+
     # Games
     heroic
     bottles

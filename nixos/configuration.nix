@@ -170,6 +170,10 @@
   # Enable Flakes
   nix.settings.experimental-features = ["nix-command" "flakes"];
 
+  # Enable automatic garbage collection
+  nix.gc.automatic = true;
+  nix.gc.options = "--delete-older-than 7d";
+
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -220,4 +224,8 @@
   # Before changing this value read the documentation for this option
   # (e.g. man configuration.nix or on https://nixos.org/nixos/options.html).
   system.stateVersion = "24.11"; # Did you read the comment?
+
+  # Enable automatic upgrades
+  system.autoUpgrade.enable = true;
+  system.autoUpgrade.allowReboot = true;
 }

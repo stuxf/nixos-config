@@ -4,7 +4,7 @@
   ...
 }: {
   home.packages = [
-    pkgs.nerdfonts
+    pkgs.nerd-fonts.jetbrains-mono
   ];
   fonts.fontconfig = {
     enable = true;

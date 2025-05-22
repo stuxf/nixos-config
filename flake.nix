@@ -56,7 +56,7 @@
 
               imports = [
                 ./home
-                catppuccin.homeManagerModules.catppuccin
+                catppuccin.homeModules.catppuccin
               ];
             };
 

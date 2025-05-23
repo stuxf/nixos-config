@@ -80,6 +80,7 @@
     notion-app-enhanced
     libreoffice
     hunspell
+    (lib.hiPrio kicad)
 
     # IDEs
     jetbrains.clion

@@ -3,7 +3,7 @@
   pkgs,
   ...
 }: let
-  python312Optimized = pkgs.python312.override {
+  python313Optimized = pkgs.python313.override {
     enableOptimizations = true; # Enable optimizations
     reproducibleBuild = false; # Allow non-reproducible builds for performance
   };
@@ -26,12 +26,18 @@
       # QOL
       tqdm
 
+      # EE stuff
+      kicad
+
       # Jupyter Notebook
       jupyter
       ipython
       ipykernel
       jupyterlab
       pip
+
+      # llm slop stuff
+      mcp
 
       # CTF
       pwntools
@@ -47,7 +53,7 @@ in {
   # Enable Python and PyPy3 with the necessary packages
   home.packages = with pkgs; [
     uv
-    (python312Optimized.withPackages (ps: pythonPackages ps))
+    (python313Optimized.withPackages (ps: pythonPackages ps))
     # (pkgs.pypy3.withPackages (ps: pythonPackages ps))
   ];
 }

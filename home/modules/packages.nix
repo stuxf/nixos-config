@@ -81,8 +81,14 @@
     libreoffice
     hunspell
     (lib.hiPrio kicad)
+    pinta
 
     # IDEs
     jetbrains.clion
+
+    # Other Coding tools
+    # binaryninja-free
+    ghidra
+    claude-code
   ];
 }

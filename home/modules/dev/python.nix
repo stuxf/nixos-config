@@ -11,6 +11,12 @@
   # Packages to be installed
   pythonPackages = ps:
     with ps; [
+      # GUI things
+      pyqt6
+      tkinter
+      pyqtgraph
+      qasync
+
       # LSP Stuff
       python-lsp-server
       python-lsp-ruff
@@ -22,12 +28,16 @@
       pydot
       pandas
       scikit-learn
+      pytorch
 
       # QOL
       tqdm
 
       # EE stuff
       kicad
+
+      # CE stuff
+      bleak
 
       # Jupyter Notebook
       jupyter

@@ -3,7 +3,7 @@
     enable = true;
     # needed for rust lang server and rust-analyzer extension
     package = pkgs.vscode.fhsWithPackages (ps: with ps; [rustup zlib openssl.dev pkg-config]);
-    extensions = with pkgs.vscode-extensions; [
+    profiles.default.extensions = with pkgs.vscode-extensions; [
       # Normie vscode extensions
       ms-python.python
       ms-toolsai.jupyter

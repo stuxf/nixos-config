@@ -4,6 +4,7 @@
     nodejs
     nodePackages.pnpm
     yarn
+    pnpm
 
     # Bun things
     bun

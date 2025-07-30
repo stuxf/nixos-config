@@ -55,6 +55,7 @@
       gmpy2
       pillow
       sympy
+      z3-solver
     ];
 in {
   programs.ruff.enable = true;

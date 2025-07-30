@@ -25,10 +25,13 @@
     cloc
 
     # Games
-    # heroic
+    heroic
     bottles
     prismlauncher
     # tetrio-desktop
+
+    # Game Dev
+    godot
 
     # Languages
     lean4
@@ -90,5 +93,9 @@
     # binaryninja-free
     ghidra
     claude-code
+    gemini-cli
+
+    # Other CLI
+    aoc-cli
   ];
 }

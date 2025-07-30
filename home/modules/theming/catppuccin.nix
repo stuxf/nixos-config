@@ -7,4 +7,5 @@
   # catppuccin.gtk.gnomeShellTheme = true;
   catppuccin.gtk.size = "standard";
   catppuccin.zathura.enable = false;
+  catppuccin.firefox.enable = false;
 }

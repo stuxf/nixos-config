@@ -19,9 +19,6 @@ in {
   programs.firefox = {
     enable = true;
 
-    # Add this to acknowledge the override
-    profiles.default.extensions.force = true;
-
     policies = {
       DisableTelemetry = true;
       DisableFirefoxStudies = true;

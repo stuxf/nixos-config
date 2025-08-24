@@ -38,7 +38,7 @@
     ./modules/shell/ripgrep.nix
     ./modules/shell/fzf.nix
     ./modules/theming/font.nix
-    # ./modules/browsers/firefox.nix
+    ./modules/browsers/firefox.nix
     ./modules/browsers/chromium.nix
   ];
 

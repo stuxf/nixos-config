@@ -11,11 +11,11 @@
     gdb
     valgrind
     cmake
-    cmake-language-server
+    neocmakelsp
     gnumake
     checkmake
     codespell
-    conan
+    # conan
     cppcheck
     doxygen
     gtest

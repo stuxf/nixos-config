@@ -57,7 +57,7 @@
     iotop
     iftop
     strace
-    ltrace
+    # ltrace  # Temporarily disabled due to test failures
     lsof
     sysstat
     lm_sensors
@@ -72,6 +72,7 @@
     SDL2.dev
     sdl3
     sdl3.dev
+    nmap
 
     # Apps
     vesktop
@@ -87,13 +88,14 @@
     pinta
 
     # IDEs
-    jetbrains.clion
+    # jetbrains.clion  # Temporarily disabled due to libdbm build failure
 
     # Other Coding tools
     # binaryninja-free
     ghidra
     claude-code
     gemini-cli
+    codex
 
     # Other CLI
     aoc-cli

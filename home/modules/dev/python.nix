@@ -21,6 +21,10 @@
       python-lsp-server
       python-lsp-ruff
 
+      # prod stuff
+      pytest
+      mypy
+
       # Scientific Computing Stuff
       numpy
       matplotlib

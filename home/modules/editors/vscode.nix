@@ -5,8 +5,8 @@
     package = pkgs.vscode.fhsWithPackages (ps: with ps; [rustup zlib openssl.dev pkg-config]);
     profiles.default.extensions = with pkgs.vscode-extensions; [
       # Normie vscode extensions
-      ms-python.python
-      ms-toolsai.jupyter
+      # ms-python.python # Temporarily disabled due to pygls compatibility issue
+      # ms-toolsai.jupyter # Temporarily disabled due to potential Python dependencies
       ms-vscode.cpptools-extension-pack
       vscjava.vscode-java-pack
       ecmel.vscode-html-css
@@ -20,7 +20,7 @@
       ms-vscode.cmake-tools
       ms-vsliveshare.vsliveshare
       tomoki1207.pdf
-      ms-toolsai.jupyter
+      # ms-toolsai.jupyter # Temporarily disabled due to potential Python dependencies
 
       # Typst
       myriad-dreamin.tinymist
